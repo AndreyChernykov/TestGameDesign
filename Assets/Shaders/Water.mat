@@ -26,16 +26,16 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Fresnel: 0.4
-    - _RippleDensity: 8
+    - _RippleDensity: 10
     - _RippleSlimnes: 3
     - _RippleSpeed: 2
     - _WavePower: 4
     - _WaveSize: 2
-    - _WaveSpeed: 0.1
+    - _WaveSpeed: 0.04
     m_Colors:
-    - _BaseColor: {r: 0, g: 1.6, b: 1.2627451, a: 1}
+    - _BaseColor: {r: 0.28930813, g: 0.7488071, b: 1, a: 1}
     - _Fresnel: {r: 0.1, g: 4, b: 0, a: 0}
-    - _RippleColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _Water: {r: 0.2427018, g: 0.90588236, b: 0.8784314, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2972635374363697136
