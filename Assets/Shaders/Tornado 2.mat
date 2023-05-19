@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: fe0bb191d38f5dd4eb3970f65e8df609, type: 3}
+  m_Name: Tornado 2
+  m_Shader: {fileID: -6465566751694194690, guid: d1dee6d1dcfaa12409d021604210a99f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -19,28 +19,30 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 68cb11b4161f14f48bc047ff81a1e44e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.8
+    - _Alpha: 0.2
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Fresnel: 0.4
-    - _Metallic: 0
-    - _RippleDensity: 100
-    - _RippleSlimnes: 2
-    - _RippleSpeed: 2
-    - _Smoothless: 0
-    - _WavePower: 4
-    - _WaveSize: 20
-    - _WaveSpeed: 0.01
+    - _Emission: 80
+    - _FlowSize: 0
+    - _FlowSpeed: -1
+    - _FresnelGlow: 2
+    - _FresnelPower: 8
+    - _NumberOfWave: 0
+    - _WaveSpeed: 0
     m_Colors:
-    - _BaseColor: {r: 0.37421376, g: 0.7164575, b: 1, a: 1}
-    - _Fresnel: {r: 0.1, g: 4, b: 0, a: 0}
-    - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Water: {r: 0.2427018, g: 0.90588236, b: 0.8784314, a: 1}
+    - _BaseColor: {r: 0.5566038, g: 0.15547903, b: 0, a: 1}
+    - _FresnelColor: {r: 0.745283, g: 0.53872263, b: 0, a: 1}
+    - _TextureSpeed: {r: -0.01, g: -0.02, b: 0, a: 0}
+    - _Tilling: {r: 0.02, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2972635374363697136
+--- !u!114 &6200310059396385223
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
